@@ -5,7 +5,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['cos.codefe.top'],
+    domains: ['cos.codefe.top','ityoung-blog.oss-cn-hangzhou.aliyuncs.com'],
   }
 }
 
