@@ -417,6 +417,91 @@ packages:
       glob: 7.1.7
     dev: true
 
+  /@next/swc-darwin-arm64@13.3.0:
+    resolution: {integrity: sha512-DmIQCNq6JtccLPPBzf0dgh2vzMWt5wjxbP71pCi5EWpWYE3MsP6FcRXi4MlAmFNDQOfcFXR2r7kBeG1LpZUh1w==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@next/swc-darwin-x64@13.3.0:
+    resolution: {integrity: sha512-oQoqFa88OGgwnYlnAGHVct618FRI/749se0N3S8t9Bzdv5CRbscnO0RcX901+YnNK4Q6yeiizfgO3b7kogtsZg==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@next/swc-linux-arm64-gnu@13.3.0:
+    resolution: {integrity: sha512-Wzz2p/WqAJUqTVoLo6H18WMeAXo3i+9DkPDae4oQG8LMloJ3if4NEZTnOnTUlro6cq+S/W4pTGa97nWTrOjbGw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@next/swc-linux-arm64-musl@13.3.0:
+    resolution: {integrity: sha512-xPVrIQOQo9WXJYgmoTlMnAD/HlR/1e1ZIWGbwIzEirXBVBqMARUulBEIKdC19zuvoJ477qZJgBDCKtKEykCpyQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@next/swc-linux-x64-gnu@13.3.0:
+    resolution: {integrity: sha512-jOFlpGuPD7W2tuXVJP4wt9a3cpNxWAPcloq5EfMJRiXsBBOjLVFZA7boXYxEBzSVgUiVVr1V9T0HFM7pULJ1qA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@next/swc-linux-x64-musl@13.3.0:
+    resolution: {integrity: sha512-2OwKlzaBgmuet9XYHc3KwsEilzb04F540rlRXkAcjMHL7eCxB7uZIGtsVvKOnQLvC/elrUegwSw1+5f7WmfyOw==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@next/swc-win32-arm64-msvc@13.3.0:
+    resolution: {integrity: sha512-OeHiA6YEvndxT46g+rzFK/MQTfftKxJmzslERMu9LDdC6Kez0bdrgEYed5eXFK2Z1viKZJCGRlhd06rBusyztA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@next/swc-win32-ia32-msvc@13.3.0:
+    resolution: {integrity: sha512-4aB7K9mcVK1lYEzpOpqWrXHEZympU3oK65fnNcY1Qc4HLJFLJj8AViuqQd4jjjPNuV4sl8jAwTz3gN5VNGWB7w==}
+    engines: {node: '>= 10'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@next/swc-win32-x64-msvc@13.3.0:
+    resolution: {integrity: sha512-Reer6rkLLcoOvB0dd66+Y7WrWVFH7sEEkF/4bJCIfsSKnTStTYaHtwIJAwbqnt9I392Tqvku0KkoqZOryWV9LQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -995,6 +1080,13 @@ packages:
   /damerau-levenshtein@1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
     dev: true
+
+  /date-fns@2.30.0:
+    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
+    engines: {node: '>=0.11'}
+    dependencies:
+      '@babel/runtime': 7.21.5
+    dev: false
 
   /debug@3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
@@ -1580,6 +1672,13 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=}
     dev: true
+
+  /fsevents@2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    optional: true
 
   /function-bind@1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
@@ -2169,15 +2268,15 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
       styled-jsx: 5.1.1(@babel/core@7.21.8)(react@18.2.0)
     optionalDependencies:
-      '@next/swc-darwin-arm64': registry.npmmirror.com/@next/swc-darwin-arm64@13.3.0
-      '@next/swc-darwin-x64': registry.npmmirror.com/@next/swc-darwin-x64@13.3.0
-      '@next/swc-linux-arm64-gnu': registry.npmmirror.com/@next/swc-linux-arm64-gnu@13.3.0
-      '@next/swc-linux-arm64-musl': registry.npmmirror.com/@next/swc-linux-arm64-musl@13.3.0
-      '@next/swc-linux-x64-gnu': registry.npmmirror.com/@next/swc-linux-x64-gnu@13.3.0
-      '@next/swc-linux-x64-musl': registry.npmmirror.com/@next/swc-linux-x64-musl@13.3.0
-      '@next/swc-win32-arm64-msvc': registry.npmmirror.com/@next/swc-win32-arm64-msvc@13.3.0
-      '@next/swc-win32-ia32-msvc': registry.npmmirror.com/@next/swc-win32-ia32-msvc@13.3.0
-      '@next/swc-win32-x64-msvc': registry.npmmirror.com/@next/swc-win32-x64-msvc@13.3.0
+      '@next/swc-darwin-arm64': 13.3.0
+      '@next/swc-darwin-x64': 13.3.0
+      '@next/swc-linux-arm64-gnu': 13.3.0
+      '@next/swc-linux-arm64-musl': 13.3.0
+      '@next/swc-linux-x64-gnu': 13.3.0
+      '@next/swc-linux-x64-musl': 13.3.0
+      '@next/swc-win32-arm64-msvc': 13.3.0
+      '@next/swc-win32-ia32-msvc': 13.3.0
+      '@next/swc-win32-x64-msvc': 13.3.0
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
@@ -2457,7 +2556,7 @@ packages:
       date-fns: ^2.28.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      date-fns: registry.npmmirror.com/date-fns@2.30.0
+      date-fns: 2.30.0
       react: 18.2.0
     dev: false
 
@@ -2980,13 +3079,13 @@ packages:
     dev: true
 
   registry.npmmirror.com/@alloc/quick-lru@5.2.0:
-    resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz}
+    resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz}
     name: '@alloc/quick-lru'
     version: 5.2.0
     engines: {node: '>=10'}
 
   registry.npmmirror.com/@babel/runtime@7.21.5:
-    resolution: {integrity: sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/runtime/-/runtime-7.21.5.tgz}
+    resolution: {integrity: sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@babel/runtime/-/runtime-7.21.5.tgz}
     name: '@babel/runtime'
     version: 7.21.5
     engines: {node: '>=6.9.0'}
@@ -2995,13 +3094,13 @@ packages:
     dev: false
 
   registry.npmmirror.com/@floating-ui/core@1.2.6:
-    resolution: {integrity: sha512-EvYTiXet5XqweYGClEmpu3BoxmsQ4hkj3QaYA6qEnigCWffTP3vNRwBReTdrwDwo7OoJ3wM8Uoe9Uk4n+d4hfg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@floating-ui/core/-/core-1.2.6.tgz}
+    resolution: {integrity: sha512-EvYTiXet5XqweYGClEmpu3BoxmsQ4hkj3QaYA6qEnigCWffTP3vNRwBReTdrwDwo7OoJ3wM8Uoe9Uk4n+d4hfg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@floating-ui/core/-/core-1.2.6.tgz}
     name: '@floating-ui/core'
     version: 1.2.6
     dev: false
 
   registry.npmmirror.com/@floating-ui/dom@1.2.9:
-    resolution: {integrity: sha512-sosQxsqgxMNkV3C+3UqTS6LxP7isRLwX8WMepp843Rb3/b0Wz8+MdUkxJksByip3C2WwLugLHN1b4ibn//zKwQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.2.9.tgz}
+    resolution: {integrity: sha512-sosQxsqgxMNkV3C+3UqTS6LxP7isRLwX8WMepp843Rb3/b0Wz8+MdUkxJksByip3C2WwLugLHN1b4ibn//zKwQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.2.9.tgz}
     name: '@floating-ui/dom'
     version: 1.2.9
     dependencies:
@@ -3009,7 +3108,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@floating-ui/react-dom@2.0.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Ke0oU3SeuABC2C4OFu2mSAwHIP5WUiV98O9YWoHV4Q5aT6E9k06DV0Khi5uYspR8xmmBk08t8ZDcz3TR3ARkEg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@floating-ui/react-dom/-/react-dom-2.0.0.tgz}
+    resolution: {integrity: sha512-Ke0oU3SeuABC2C4OFu2mSAwHIP5WUiV98O9YWoHV4Q5aT6E9k06DV0Khi5uYspR8xmmBk08t8ZDcz3TR3ARkEg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@floating-ui/react-dom/-/react-dom-2.0.0.tgz}
     id: registry.npmmirror.com/@floating-ui/react-dom/2.0.0
     name: '@floating-ui/react-dom'
     version: 2.0.0
@@ -3023,7 +3122,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@hookform/resolvers@3.1.0(react-hook-form@7.44.2):
-    resolution: {integrity: sha512-z0A8K+Nxq+f83Whm/ajlwE6VtQlp/yPHZnXw7XWVPIGm1Vx0QV8KThU3BpbBRfAZ7/dYqCKKBNnQh85BkmBKkA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@hookform/resolvers/-/resolvers-3.1.0.tgz}
+    resolution: {integrity: sha512-z0A8K+Nxq+f83Whm/ajlwE6VtQlp/yPHZnXw7XWVPIGm1Vx0QV8KThU3BpbBRfAZ7/dYqCKKBNnQh85BkmBKkA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@hookform/resolvers/-/resolvers-3.1.0.tgz}
     id: registry.npmmirror.com/@hookform/resolvers/3.1.0
     name: '@hookform/resolvers'
     version: 3.1.0
@@ -3034,7 +3133,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@jridgewell/gen-mapping@0.3.3:
-    resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz}
+    resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz}
     name: '@jridgewell/gen-mapping'
     version: 0.3.3
     engines: {node: '>=6.0.0'}
@@ -3044,29 +3143,29 @@ packages:
       '@jridgewell/trace-mapping': registry.npmmirror.com/@jridgewell/trace-mapping@0.3.18
 
   registry.npmmirror.com/@jridgewell/resolve-uri@3.1.0:
-    resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz}
+    resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz}
     name: '@jridgewell/resolve-uri'
     version: 3.1.0
     engines: {node: '>=6.0.0'}
 
   registry.npmmirror.com/@jridgewell/set-array@1.1.2:
-    resolution: {integrity: sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/set-array/-/set-array-1.1.2.tgz}
+    resolution: {integrity: sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@jridgewell/set-array/-/set-array-1.1.2.tgz}
     name: '@jridgewell/set-array'
     version: 1.1.2
     engines: {node: '>=6.0.0'}
 
   registry.npmmirror.com/@jridgewell/sourcemap-codec@1.4.14:
-    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz}
+    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz}
     name: '@jridgewell/sourcemap-codec'
     version: 1.4.14
 
   registry.npmmirror.com/@jridgewell/sourcemap-codec@1.4.15:
-    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz}
+    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz}
     name: '@jridgewell/sourcemap-codec'
     version: 1.4.15
 
   registry.npmmirror.com/@jridgewell/trace-mapping@0.3.18:
-    resolution: {integrity: sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.18.tgz}
+    resolution: {integrity: sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.18.tgz}
     name: '@jridgewell/trace-mapping'
     version: 0.3.18
     dependencies:
@@ -3074,7 +3173,7 @@ packages:
       '@jridgewell/sourcemap-codec': registry.npmmirror.com/@jridgewell/sourcemap-codec@1.4.14
 
   registry.npmmirror.com/@mapbox/node-pre-gyp@1.0.10:
-    resolution: {integrity: sha512-4ySo4CjzStuprMwk35H5pPbkymjv1SF3jGLj6rAHp/xT/RF7TL7bd9CTm1xDY49K2qF7jmR/g7k+SkLETP6opA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.10.tgz}
+    resolution: {integrity: sha512-4ySo4CjzStuprMwk35H5pPbkymjv1SF3jGLj6rAHp/xT/RF7TL7bd9CTm1xDY49K2qF7jmR/g7k+SkLETP6opA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.10.tgz}
     name: '@mapbox/node-pre-gyp'
     version: 1.0.10
     hasBin: true
@@ -3093,111 +3192,8 @@ packages:
       - supports-color
     dev: false
 
-  registry.npmmirror.com/@next/swc-darwin-arm64@13.3.0:
-    resolution: {integrity: sha512-DmIQCNq6JtccLPPBzf0dgh2vzMWt5wjxbP71pCi5EWpWYE3MsP6FcRXi4MlAmFNDQOfcFXR2r7kBeG1LpZUh1w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.3.0.tgz}
-    name: '@next/swc-darwin-arm64'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [darwin]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  registry.npmmirror.com/@next/swc-darwin-x64@13.3.0:
-    resolution: {integrity: sha512-oQoqFa88OGgwnYlnAGHVct618FRI/749se0N3S8t9Bzdv5CRbscnO0RcX901+YnNK4Q6yeiizfgO3b7kogtsZg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-darwin-x64/-/swc-darwin-x64-13.3.0.tgz}
-    name: '@next/swc-darwin-x64'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [darwin]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  registry.npmmirror.com/@next/swc-linux-arm64-gnu@13.3.0:
-    resolution: {integrity: sha512-Wzz2p/WqAJUqTVoLo6H18WMeAXo3i+9DkPDae4oQG8LMloJ3if4NEZTnOnTUlro6cq+S/W4pTGa97nWTrOjbGw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.3.0.tgz}
-    name: '@next/swc-linux-arm64-gnu'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [linux]
-    libc: [glibc]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  registry.npmmirror.com/@next/swc-linux-arm64-musl@13.3.0:
-    resolution: {integrity: sha512-xPVrIQOQo9WXJYgmoTlMnAD/HlR/1e1ZIWGbwIzEirXBVBqMARUulBEIKdC19zuvoJ477qZJgBDCKtKEykCpyQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.3.0.tgz}
-    name: '@next/swc-linux-arm64-musl'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [linux]
-    libc: [musl]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  registry.npmmirror.com/@next/swc-linux-x64-gnu@13.3.0:
-    resolution: {integrity: sha512-jOFlpGuPD7W2tuXVJP4wt9a3cpNxWAPcloq5EfMJRiXsBBOjLVFZA7boXYxEBzSVgUiVVr1V9T0HFM7pULJ1qA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.3.0.tgz}
-    name: '@next/swc-linux-x64-gnu'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-    libc: [glibc]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  registry.npmmirror.com/@next/swc-linux-x64-musl@13.3.0:
-    resolution: {integrity: sha512-2OwKlzaBgmuet9XYHc3KwsEilzb04F540rlRXkAcjMHL7eCxB7uZIGtsVvKOnQLvC/elrUegwSw1+5f7WmfyOw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.3.0.tgz}
-    name: '@next/swc-linux-x64-musl'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-    libc: [musl]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  registry.npmmirror.com/@next/swc-win32-arm64-msvc@13.3.0:
-    resolution: {integrity: sha512-OeHiA6YEvndxT46g+rzFK/MQTfftKxJmzslERMu9LDdC6Kez0bdrgEYed5eXFK2Z1viKZJCGRlhd06rBusyztA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.3.0.tgz}
-    name: '@next/swc-win32-arm64-msvc'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [win32]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  registry.npmmirror.com/@next/swc-win32-ia32-msvc@13.3.0:
-    resolution: {integrity: sha512-4aB7K9mcVK1lYEzpOpqWrXHEZympU3oK65fnNcY1Qc4HLJFLJj8AViuqQd4jjjPNuV4sl8jAwTz3gN5VNGWB7w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.3.0.tgz}
-    name: '@next/swc-win32-ia32-msvc'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [ia32]
-    os: [win32]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  registry.npmmirror.com/@next/swc-win32-x64-msvc@13.3.0:
-    resolution: {integrity: sha512-Reer6rkLLcoOvB0dd66+Y7WrWVFH7sEEkF/4bJCIfsSKnTStTYaHtwIJAwbqnt9I392Tqvku0KkoqZOryWV9LQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.3.0.tgz}
-    name: '@next/swc-win32-x64-msvc'
-    version: 13.3.0
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [win32]
-    requiresBuild: true
-    dev: false
-    optional: true
-
   registry.npmmirror.com/@nodelib/fs.scandir@2.1.5:
-    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz}
+    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz}
     name: '@nodelib/fs.scandir'
     version: 2.1.5
     engines: {node: '>= 8'}
@@ -3206,13 +3202,13 @@ packages:
       run-parallel: registry.npmmirror.com/run-parallel@1.2.0
 
   registry.npmmirror.com/@nodelib/fs.stat@2.0.5:
-    resolution: {integrity: sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz}
+    resolution: {integrity: sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz}
     name: '@nodelib/fs.stat'
     version: 2.0.5
     engines: {node: '>= 8'}
 
   registry.npmmirror.com/@nodelib/fs.walk@1.2.8:
-    resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz}
+    resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz}
     name: '@nodelib/fs.walk'
     version: 1.2.8
     engines: {node: '>= 8'}
@@ -3221,7 +3217,7 @@ packages:
       fastq: registry.npmmirror.com/fastq@1.15.0
 
   registry.npmmirror.com/@radix-ui/primitive@1.0.0:
-    resolution: {integrity: sha512-3e7rn8FDMin4CgeL7Z/49smCA3rFYY3Ha2rUQ7HRWFadS5iCRw08ZgVT1LaNTCNqgvrUiyczLflrVrF0SRQtNA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/primitive/-/primitive-1.0.0.tgz}
+    resolution: {integrity: sha512-3e7rn8FDMin4CgeL7Z/49smCA3rFYY3Ha2rUQ7HRWFadS5iCRw08ZgVT1LaNTCNqgvrUiyczLflrVrF0SRQtNA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/primitive/-/primitive-1.0.0.tgz}
     name: '@radix-ui/primitive'
     version: 1.0.0
     dependencies:
@@ -3229,7 +3225,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/primitive@1.0.1:
-    resolution: {integrity: sha512-yQ8oGX2GVsEYMWGxcovu1uGWPCxV5BFfeeYxqPmuAzUyLT9qmaMXSAhXpb0WrspIeqYzdJpkh2vHModJPgRIaw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/primitive/-/primitive-1.0.1.tgz}
+    resolution: {integrity: sha512-yQ8oGX2GVsEYMWGxcovu1uGWPCxV5BFfeeYxqPmuAzUyLT9qmaMXSAhXpb0WrspIeqYzdJpkh2vHModJPgRIaw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/primitive/-/primitive-1.0.1.tgz}
     name: '@radix-ui/primitive'
     version: 1.0.1
     dependencies:
@@ -3237,7 +3233,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-arrow@1.0.3(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-wSP+pHsB/jQRaL6voubsQ/ZlrGBHHrOjmBnr19hxYgtS0WvAFwZhK2WP/YY5yF9uKECCEEDGxuLxq1NBK51wFA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-arrow/-/react-arrow-1.0.3.tgz}
+    resolution: {integrity: sha512-wSP+pHsB/jQRaL6voubsQ/ZlrGBHHrOjmBnr19hxYgtS0WvAFwZhK2WP/YY5yF9uKECCEEDGxuLxq1NBK51wFA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-arrow/-/react-arrow-1.0.3.tgz}
     id: registry.npmmirror.com/@radix-ui/react-arrow/1.0.3
     name: '@radix-ui/react-arrow'
     version: 1.0.3
@@ -3261,7 +3257,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-avatar@1.0.3(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-9ToF7YNex3Ste45LrAeTlKtONI9yVRt/zOS158iilIkW5K/Apeyb/TUQlcEFTEFvWr8Kzdi2ZYrm1/suiXPajQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-avatar/-/react-avatar-1.0.3.tgz}
+    resolution: {integrity: sha512-9ToF7YNex3Ste45LrAeTlKtONI9yVRt/zOS158iilIkW5K/Apeyb/TUQlcEFTEFvWr8Kzdi2ZYrm1/suiXPajQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-avatar/-/react-avatar-1.0.3.tgz}
     id: registry.npmmirror.com/@radix-ui/react-avatar/1.0.3
     name: '@radix-ui/react-avatar'
     version: 1.0.3
@@ -3288,7 +3284,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-collection@1.0.3(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-3SzW+0PW7yBBoQlT8wNcGtaxaD0XSu0uLUFgrtHY08Acx05TaHaOmVLR73c0j/cqpDy53KBMO7s0dx2wmOIDIA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-collection/-/react-collection-1.0.3.tgz}
+    resolution: {integrity: sha512-3SzW+0PW7yBBoQlT8wNcGtaxaD0XSu0uLUFgrtHY08Acx05TaHaOmVLR73c0j/cqpDy53KBMO7s0dx2wmOIDIA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-collection/-/react-collection-1.0.3.tgz}
     id: registry.npmmirror.com/@radix-ui/react-collection/1.0.3
     name: '@radix-ui/react-collection'
     version: 1.0.3
@@ -3315,7 +3311,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-compose-refs@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-0KaSv6sx787/hK3eF53iOkiSLwAGlFMx5lotrqD2pTjB18KbybKoEIgkNZTKC60YECDQTKGTRcDBILwZVqVKvA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-compose-refs/-/react-compose-refs-1.0.0.tgz}
+    resolution: {integrity: sha512-0KaSv6sx787/hK3eF53iOkiSLwAGlFMx5lotrqD2pTjB18KbybKoEIgkNZTKC60YECDQTKGTRcDBILwZVqVKvA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-compose-refs/-/react-compose-refs-1.0.0.tgz}
     id: registry.npmmirror.com/@radix-ui/react-compose-refs/1.0.0
     name: '@radix-ui/react-compose-refs'
     version: 1.0.0
@@ -3327,7 +3323,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-compose-refs@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-compose-refs/-/react-compose-refs-1.0.1.tgz}
+    resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-compose-refs/-/react-compose-refs-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-compose-refs/1.0.1
     name: '@radix-ui/react-compose-refs'
     version: 1.0.1
@@ -3344,7 +3340,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-context@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-1pVM9RfOQ+n/N5PJK33kRSKsr1glNxomxONs5c49MliinBY6Yw2Q995qfBUUo0/Mbg05B/sGA0gkgPI7kmSHBg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-context/-/react-context-1.0.0.tgz}
+    resolution: {integrity: sha512-1pVM9RfOQ+n/N5PJK33kRSKsr1glNxomxONs5c49MliinBY6Yw2Q995qfBUUo0/Mbg05B/sGA0gkgPI7kmSHBg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-context/-/react-context-1.0.0.tgz}
     id: registry.npmmirror.com/@radix-ui/react-context/1.0.0
     name: '@radix-ui/react-context'
     version: 1.0.0
@@ -3356,7 +3352,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-context@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-ebbrdFoYTcuZ0v4wG5tedGnp9tzcV8awzsxYph7gXUyvnNLuTIcCk1q17JEbnVhXAKG9oX3KtchwiMIAYp9NLg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-context/-/react-context-1.0.1.tgz}
+    resolution: {integrity: sha512-ebbrdFoYTcuZ0v4wG5tedGnp9tzcV8awzsxYph7gXUyvnNLuTIcCk1q17JEbnVhXAKG9oX3KtchwiMIAYp9NLg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-context/-/react-context-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-context/1.0.1
     name: '@radix-ui/react-context'
     version: 1.0.1
@@ -3373,7 +3369,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-direction@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-RXcvnXgyvYvBEOhCBuddKecVkoMiI10Jcm5cTI7abJRAHYfFxeu+FBQs/DvdxSYucxR5mna0dNsL6QFlds5TMA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-direction/-/react-direction-1.0.1.tgz}
+    resolution: {integrity: sha512-RXcvnXgyvYvBEOhCBuddKecVkoMiI10Jcm5cTI7abJRAHYfFxeu+FBQs/DvdxSYucxR5mna0dNsL6QFlds5TMA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-direction/-/react-direction-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-direction/1.0.1
     name: '@radix-ui/react-direction'
     version: 1.0.1
@@ -3390,7 +3386,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-dismissable-layer@1.0.4(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-7UpBa/RKMoHJYjie1gkF1DlK8l1fdU/VKDpoS3rCCo8YBJR294GwcEHyxHw72yvphJ7ld0AXEcSLAzY2F/WyCg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.0.4.tgz}
+    resolution: {integrity: sha512-7UpBa/RKMoHJYjie1gkF1DlK8l1fdU/VKDpoS3rCCo8YBJR294GwcEHyxHw72yvphJ7ld0AXEcSLAzY2F/WyCg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.0.4.tgz}
     id: registry.npmmirror.com/@radix-ui/react-dismissable-layer/1.0.4
     name: '@radix-ui/react-dismissable-layer'
     version: 1.0.4
@@ -3418,7 +3414,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-dropdown-menu@2.0.5(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-xdOrZzOTocqqkCkYo8yRPCib5OkTkqN7lqNCdxwPOdE466DOaNl4N8PkUIlsXthQvW5Wwkd+aEmWpfWlBoDPEw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.0.5.tgz}
+    resolution: {integrity: sha512-xdOrZzOTocqqkCkYo8yRPCib5OkTkqN7lqNCdxwPOdE466DOaNl4N8PkUIlsXthQvW5Wwkd+aEmWpfWlBoDPEw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.0.5.tgz}
     id: registry.npmmirror.com/@radix-ui/react-dropdown-menu/2.0.5
     name: '@radix-ui/react-dropdown-menu'
     version: 2.0.5
@@ -3448,7 +3444,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-focus-guards@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-Rect2dWbQ8waGzhMavsIbmSVCgYxkXLxxR3ZvCX79JOglzdEy4JXMb98lq4hPxUbLr77nP0UOGf4rcMU+s1pUA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-focus-guards/-/react-focus-guards-1.0.1.tgz}
+    resolution: {integrity: sha512-Rect2dWbQ8waGzhMavsIbmSVCgYxkXLxxR3ZvCX79JOglzdEy4JXMb98lq4hPxUbLr77nP0UOGf4rcMU+s1pUA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-focus-guards/-/react-focus-guards-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-focus-guards/1.0.1
     name: '@radix-ui/react-focus-guards'
     version: 1.0.1
@@ -3465,7 +3461,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-focus-scope@1.0.3(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-upXdPfqI4islj2CslyfUBNlaJCPybbqRHAi1KER7Isel9Q2AtSJ0zRBZv8mWQiFXD2nyAJ4BhC3yXgZ6kMBSrQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-focus-scope/-/react-focus-scope-1.0.3.tgz}
+    resolution: {integrity: sha512-upXdPfqI4islj2CslyfUBNlaJCPybbqRHAi1KER7Isel9Q2AtSJ0zRBZv8mWQiFXD2nyAJ4BhC3yXgZ6kMBSrQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-focus-scope/-/react-focus-scope-1.0.3.tgz}
     id: registry.npmmirror.com/@radix-ui/react-focus-scope/1.0.3
     name: '@radix-ui/react-focus-scope'
     version: 1.0.3
@@ -3491,7 +3487,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-id@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-tI7sT/kqYp8p96yGWY1OAnLHrqDgzHefRBKQ2YAkBS5ja7QLcZ9Z/uY7bEjPUatf8RomoXM8/1sMj1IJaE5UzQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-id/-/react-id-1.0.1.tgz}
+    resolution: {integrity: sha512-tI7sT/kqYp8p96yGWY1OAnLHrqDgzHefRBKQ2YAkBS5ja7QLcZ9Z/uY7bEjPUatf8RomoXM8/1sMj1IJaE5UzQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-id/-/react-id-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-id/1.0.1
     name: '@radix-ui/react-id'
     version: 1.0.1
@@ -3509,7 +3505,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-label@2.0.2(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-N5ehvlM7qoTLx7nWPodsPYPgMzA5WM8zZChQg8nyFJKnDO5WHdba1vv5/H6IO5LtJMfD2Q3wh1qHFGNtK0w3bQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-label/-/react-label-2.0.2.tgz}
+    resolution: {integrity: sha512-N5ehvlM7qoTLx7nWPodsPYPgMzA5WM8zZChQg8nyFJKnDO5WHdba1vv5/H6IO5LtJMfD2Q3wh1qHFGNtK0w3bQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-label/-/react-label-2.0.2.tgz}
     id: registry.npmmirror.com/@radix-ui/react-label/2.0.2
     name: '@radix-ui/react-label'
     version: 2.0.2
@@ -3533,7 +3529,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-menu@2.0.5(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Gw4f9pwdH+w5w+49k0gLjN0PfRDHvxmAgG16AbyJZ7zhwZ6PBHKtWohvnSwfusfnK3L68dpBREHpVkj8wEM7ZA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-menu/-/react-menu-2.0.5.tgz}
+    resolution: {integrity: sha512-Gw4f9pwdH+w5w+49k0gLjN0PfRDHvxmAgG16AbyJZ7zhwZ6PBHKtWohvnSwfusfnK3L68dpBREHpVkj8wEM7ZA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-menu/-/react-menu-2.0.5.tgz}
     id: registry.npmmirror.com/@radix-ui/react-menu/2.0.5
     name: '@radix-ui/react-menu'
     version: 2.0.5
@@ -3574,7 +3570,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-popper@1.1.2(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-1CnGGfFi/bbqtJZZ0P/NQY20xdG3E0LALJaLUEoKwPLwl6PPPfbeiCqMVQnhoFRAxjJj4RpBRJzDmUgsex2tSg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-popper/-/react-popper-1.1.2.tgz}
+    resolution: {integrity: sha512-1CnGGfFi/bbqtJZZ0P/NQY20xdG3E0LALJaLUEoKwPLwl6PPPfbeiCqMVQnhoFRAxjJj4RpBRJzDmUgsex2tSg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-popper/-/react-popper-1.1.2.tgz}
     id: registry.npmmirror.com/@radix-ui/react-popper/1.1.2
     name: '@radix-ui/react-popper'
     version: 1.1.2
@@ -3607,7 +3603,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-portal@1.0.3(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-xLYZeHrWoPmA5mEKEfZZevoVRK/Q43GfzRXkWV6qawIWWK8t6ifIiLQdd7rmQ4Vk1bmI21XhqF9BN3jWf+phpA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-portal/-/react-portal-1.0.3.tgz}
+    resolution: {integrity: sha512-xLYZeHrWoPmA5mEKEfZZevoVRK/Q43GfzRXkWV6qawIWWK8t6ifIiLQdd7rmQ4Vk1bmI21XhqF9BN3jWf+phpA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-portal/-/react-portal-1.0.3.tgz}
     id: registry.npmmirror.com/@radix-ui/react-portal/1.0.3
     name: '@radix-ui/react-portal'
     version: 1.0.3
@@ -3631,7 +3627,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-presence@1.0.1(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-UXLW4UAbIY5ZjcvzjfRFo5gxva8QirC9hF7wRE4U5gz+TP0DbRk+//qyuAQ1McDxBt1xNMBTaciFGvEmJvAZCg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-presence/-/react-presence-1.0.1.tgz}
+    resolution: {integrity: sha512-UXLW4UAbIY5ZjcvzjfRFo5gxva8QirC9hF7wRE4U5gz+TP0DbRk+//qyuAQ1McDxBt1xNMBTaciFGvEmJvAZCg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-presence/-/react-presence-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-presence/1.0.1
     name: '@radix-ui/react-presence'
     version: 1.0.1
@@ -3656,7 +3652,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-primitive@1.0.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-EyXe6mnRlHZ8b6f4ilTDrXmkLShICIuOTTj0GX4w1rp+wSxf3+TD05u1UOITC8VsJ2a9nwHvdXtOXEOl0Cw/zQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-primitive/-/react-primitive-1.0.0.tgz}
+    resolution: {integrity: sha512-EyXe6mnRlHZ8b6f4ilTDrXmkLShICIuOTTj0GX4w1rp+wSxf3+TD05u1UOITC8VsJ2a9nwHvdXtOXEOl0Cw/zQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-primitive/-/react-primitive-1.0.0.tgz}
     id: registry.npmmirror.com/@radix-ui/react-primitive/1.0.0
     name: '@radix-ui/react-primitive'
     version: 1.0.0
@@ -3671,7 +3667,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-primitive@1.0.3(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-yi58uVyoAcK/Nq1inRY56ZSjKypBNKTa/1mcL8qdl6oJeEaDbOldlzrGn7P6Q3Id5d+SYNGc5AJgc4vGhjs5+g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-primitive/-/react-primitive-1.0.3.tgz}
+    resolution: {integrity: sha512-yi58uVyoAcK/Nq1inRY56ZSjKypBNKTa/1mcL8qdl6oJeEaDbOldlzrGn7P6Q3Id5d+SYNGc5AJgc4vGhjs5+g==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-primitive/-/react-primitive-1.0.3.tgz}
     id: registry.npmmirror.com/@radix-ui/react-primitive/1.0.3
     name: '@radix-ui/react-primitive'
     version: 1.0.3
@@ -3695,7 +3691,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-roving-focus@1.0.4(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-2mUg5Mgcu001VkGy+FfzZyzbmuUWzgWkj3rvv4yu+mLw03+mTzbxZHvfcGyFp2b8EkQeMkpRQ5FiA2Vr2O6TeQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-roving-focus/-/react-roving-focus-1.0.4.tgz}
+    resolution: {integrity: sha512-2mUg5Mgcu001VkGy+FfzZyzbmuUWzgWkj3rvv4yu+mLw03+mTzbxZHvfcGyFp2b8EkQeMkpRQ5FiA2Vr2O6TeQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-roving-focus/-/react-roving-focus-1.0.4.tgz}
     id: registry.npmmirror.com/@radix-ui/react-roving-focus/1.0.4
     name: '@radix-ui/react-roving-focus'
     version: 1.0.4
@@ -3727,7 +3723,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-slot@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-3mrKauI/tWXo1Ll+gN5dHcxDPdm/Df1ufcDLCecn+pnCIVcdWE7CujXo8QaXOWRJyZyQWWbpB8eFwHzWXlv5mQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-slot/-/react-slot-1.0.0.tgz}
+    resolution: {integrity: sha512-3mrKauI/tWXo1Ll+gN5dHcxDPdm/Df1ufcDLCecn+pnCIVcdWE7CujXo8QaXOWRJyZyQWWbpB8eFwHzWXlv5mQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-slot/-/react-slot-1.0.0.tgz}
     id: registry.npmmirror.com/@radix-ui/react-slot/1.0.0
     name: '@radix-ui/react-slot'
     version: 1.0.0
@@ -3740,7 +3736,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-slot@1.0.2(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-slot/-/react-slot-1.0.2.tgz}
+    resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-slot/-/react-slot-1.0.2.tgz}
     id: registry.npmmirror.com/@radix-ui/react-slot/1.0.2
     name: '@radix-ui/react-slot'
     version: 1.0.2
@@ -3758,7 +3754,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-toast@1.1.4(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-wf+fc8DOywrpRK3jlPlWVe+ELYGHdKDaaARJZNuUTWyWYq7+ANCFLp4rTjZ/mcGkJJQ/vZ949Zis9xxEpfq9OA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-toast/-/react-toast-1.1.4.tgz}
+    resolution: {integrity: sha512-wf+fc8DOywrpRK3jlPlWVe+ELYGHdKDaaARJZNuUTWyWYq7+ANCFLp4rTjZ/mcGkJJQ/vZ949Zis9xxEpfq9OA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-toast/-/react-toast-1.1.4.tgz}
     id: registry.npmmirror.com/@radix-ui/react-toast/1.1.4
     name: '@radix-ui/react-toast'
     version: 1.1.4
@@ -3793,7 +3789,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-callback-ref@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-GZtyzoHz95Rhs6S63D2t/eqvdFCm7I+yHMLVQheKM7nBD8mbZIt+ct1jz4536MDnaOGKIxynJ8eHTkVGVVkoTg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.0.0.tgz}
+    resolution: {integrity: sha512-GZtyzoHz95Rhs6S63D2t/eqvdFCm7I+yHMLVQheKM7nBD8mbZIt+ct1jz4536MDnaOGKIxynJ8eHTkVGVVkoTg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.0.0.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-callback-ref/1.0.0
     name: '@radix-ui/react-use-callback-ref'
     version: 1.0.0
@@ -3805,7 +3801,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-callback-ref@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-D94LjX4Sp0xJFVaoQOd3OO9k7tpBYNOXdVhkltUbGv2Qb9OXdrg/CpsjlZv7ia14Sylv398LswWBVVu5nqKzAQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.0.1.tgz}
+    resolution: {integrity: sha512-D94LjX4Sp0xJFVaoQOd3OO9k7tpBYNOXdVhkltUbGv2Qb9OXdrg/CpsjlZv7ia14Sylv398LswWBVVu5nqKzAQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-callback-ref/1.0.1
     name: '@radix-ui/react-use-callback-ref'
     version: 1.0.1
@@ -3822,7 +3818,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-controllable-state@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-Svl5GY5FQeN758fWKrjM6Qb7asvXeiZltlT4U2gVfl8Gx5UAv2sMR0LWo8yhsIZh2oQ0eFdZ59aoOOMV7b47VA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.0.1.tgz}
+    resolution: {integrity: sha512-Svl5GY5FQeN758fWKrjM6Qb7asvXeiZltlT4U2gVfl8Gx5UAv2sMR0LWo8yhsIZh2oQ0eFdZ59aoOOMV7b47VA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-controllable-state/1.0.1
     name: '@radix-ui/react-use-controllable-state'
     version: 1.0.1
@@ -3840,7 +3836,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-escape-keydown@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-JwfBCUIfhXRxKExgIqGa4CQsiMemo1Xt0W/B4ei3fpzpvPENKpMKQ8mZSB6Acj3ebrAEgi2xiQvcI1PAAodvyg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.0.0.tgz}
+    resolution: {integrity: sha512-JwfBCUIfhXRxKExgIqGa4CQsiMemo1Xt0W/B4ei3fpzpvPENKpMKQ8mZSB6Acj3ebrAEgi2xiQvcI1PAAodvyg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.0.0.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-escape-keydown/1.0.0
     name: '@radix-ui/react-use-escape-keydown'
     version: 1.0.0
@@ -3853,7 +3849,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-escape-keydown@1.0.3(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-vyL82j40hcFicA+M4Ex7hVkB9vHgSse1ZWomAqV2Je3RleKGO5iM8KMOEtfoSB0PnIelMd2lATjTGMYqN5ylTg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.0.3.tgz}
+    resolution: {integrity: sha512-vyL82j40hcFicA+M4Ex7hVkB9vHgSse1ZWomAqV2Je3RleKGO5iM8KMOEtfoSB0PnIelMd2lATjTGMYqN5ylTg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.0.3.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-escape-keydown/1.0.3
     name: '@radix-ui/react-use-escape-keydown'
     version: 1.0.3
@@ -3871,7 +3867,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-layout-effect@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-6Tpkq+R6LOlmQb1R5NNETLG0B4YP0wc+klfXafpUCj6JGyaUc8il7/kUZ7m59rGbXGczE9Bs+iz2qloqsZBduQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.0.0.tgz}
+    resolution: {integrity: sha512-6Tpkq+R6LOlmQb1R5NNETLG0B4YP0wc+klfXafpUCj6JGyaUc8il7/kUZ7m59rGbXGczE9Bs+iz2qloqsZBduQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.0.0.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-layout-effect/1.0.0
     name: '@radix-ui/react-use-layout-effect'
     version: 1.0.0
@@ -3883,7 +3879,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-layout-effect@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-v/5RegiJWYdoCvMnITBkNNx6bCj20fiaJnWtRkU18yITptraXjffz5Qbn05uOiQnOvi+dbkznkoaMltz1GnszQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.0.1.tgz}
+    resolution: {integrity: sha512-v/5RegiJWYdoCvMnITBkNNx6bCj20fiaJnWtRkU18yITptraXjffz5Qbn05uOiQnOvi+dbkznkoaMltz1GnszQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-layout-effect/1.0.1
     name: '@radix-ui/react-use-layout-effect'
     version: 1.0.1
@@ -3900,7 +3896,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-rect@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-Cq5DLuSiuYVKNU8orzJMbl15TXilTnJKUCltMVQg53BQOF1/C5toAaGrowkgksdBQ9H+SRL23g0HDmg9tvmxXw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-rect/-/react-use-rect-1.0.1.tgz}
+    resolution: {integrity: sha512-Cq5DLuSiuYVKNU8orzJMbl15TXilTnJKUCltMVQg53BQOF1/C5toAaGrowkgksdBQ9H+SRL23g0HDmg9tvmxXw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-rect/-/react-use-rect-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-rect/1.0.1
     name: '@radix-ui/react-use-rect'
     version: 1.0.1
@@ -3918,7 +3914,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-use-size@1.0.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-ibay+VqrgcaI6veAojjofPATwledXiSmX+C0KrBk/xgpX9rBzPV3OsfwlhQdUOFbh+LKQorLYT+xTXW9V8yd0g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-size/-/react-use-size-1.0.1.tgz}
+    resolution: {integrity: sha512-ibay+VqrgcaI6veAojjofPATwledXiSmX+C0KrBk/xgpX9rBzPV3OsfwlhQdUOFbh+LKQorLYT+xTXW9V8yd0g==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-use-size/-/react-use-size-1.0.1.tgz}
     id: registry.npmmirror.com/@radix-ui/react-use-size/1.0.1
     name: '@radix-ui/react-use-size'
     version: 1.0.1
@@ -3936,7 +3932,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/react-visually-hidden@1.0.3(@types/react-dom@18.0.7)(@types/react@18.0.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-D4w41yN5YRKtu464TLnByKzMDG/JlMPHtfZgQAu9v6mNakUqGUI9vUrfQKz8NK41VMm/xbZbh76NUTVtIYqOMA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.0.3.tgz}
+    resolution: {integrity: sha512-D4w41yN5YRKtu464TLnByKzMDG/JlMPHtfZgQAu9v6mNakUqGUI9vUrfQKz8NK41VMm/xbZbh76NUTVtIYqOMA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.0.3.tgz}
     id: registry.npmmirror.com/@radix-ui/react-visually-hidden/1.0.3
     name: '@radix-ui/react-visually-hidden'
     version: 1.0.3
@@ -3960,7 +3956,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@radix-ui/rect@1.0.1:
-    resolution: {integrity: sha512-fyrgCaedtvMg9NK3en0pnOYJdtfwxUcNolezkNPUsoX57X8oQk+NkqcvzHXD2uKNij6GXmWU9NDru2IWjrO4BQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@radix-ui/rect/-/rect-1.0.1.tgz}
+    resolution: {integrity: sha512-fyrgCaedtvMg9NK3en0pnOYJdtfwxUcNolezkNPUsoX57X8oQk+NkqcvzHXD2uKNij6GXmWU9NDru2IWjrO4BQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@radix-ui/rect/-/rect-1.0.1.tgz}
     name: '@radix-ui/rect'
     version: 1.0.1
     dependencies:
@@ -3968,7 +3964,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/@types/bcrypt@5.0.0:
-    resolution: {integrity: sha512-agtcFKaruL8TmcvqbndlqHPSJgsolhf/qPWchFlgnW1gECTN/nKbFcoFnvKAQRFfKbh+BO6A3SWdJu9t+xF3Lw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/bcrypt/-/bcrypt-5.0.0.tgz}
+    resolution: {integrity: sha512-agtcFKaruL8TmcvqbndlqHPSJgsolhf/qPWchFlgnW1gECTN/nKbFcoFnvKAQRFfKbh+BO6A3SWdJu9t+xF3Lw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@types/bcrypt/-/bcrypt-5.0.0.tgz}
     name: '@types/bcrypt'
     version: 5.0.0
     dependencies:
@@ -3976,19 +3972,19 @@ packages:
     dev: false
 
   registry.npmmirror.com/@types/node@17.0.12:
-    resolution: {integrity: sha512-4YpbAsnJXWYK/fpTVFlMIcUIho2AYCi4wg5aNPrG1ng7fn/1/RZfCIpRCiBX+12RVa34RluilnvCqD+g3KiSiA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-17.0.12.tgz}
+    resolution: {integrity: sha512-4YpbAsnJXWYK/fpTVFlMIcUIho2AYCi4wg5aNPrG1ng7fn/1/RZfCIpRCiBX+12RVa34RluilnvCqD+g3KiSiA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/@types/node/-/node-17.0.12.tgz}
     name: '@types/node'
     version: 17.0.12
     dev: false
 
   registry.npmmirror.com/abbrev@1.1.1:
-    resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/abbrev/-/abbrev-1.1.1.tgz}
+    resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/abbrev/-/abbrev-1.1.1.tgz}
     name: abbrev
     version: 1.1.1
     dev: false
 
   registry.npmmirror.com/agent-base@6.0.2:
-    resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/agent-base/-/agent-base-6.0.2.tgz}
+    resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/agent-base/-/agent-base-6.0.2.tgz}
     name: agent-base
     version: 6.0.2
     engines: {node: '>= 6.0.0'}
@@ -3999,19 +3995,19 @@ packages:
     dev: false
 
   registry.npmmirror.com/ansi-regex@5.0.1:
-    resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ansi-regex/-/ansi-regex-5.0.1.tgz}
+    resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/ansi-regex/-/ansi-regex-5.0.1.tgz}
     name: ansi-regex
     version: 5.0.1
     engines: {node: '>=8'}
     dev: false
 
   registry.npmmirror.com/any-promise@1.3.0:
-    resolution: {integrity: sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/any-promise/-/any-promise-1.3.0.tgz}
+    resolution: {integrity: sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/any-promise/-/any-promise-1.3.0.tgz}
     name: any-promise
     version: 1.3.0
 
   registry.npmmirror.com/anymatch@3.1.3:
-    resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/anymatch/-/anymatch-3.1.3.tgz}
+    resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/anymatch/-/anymatch-3.1.3.tgz}
     name: anymatch
     version: 3.1.3
     engines: {node: '>= 8'}
@@ -4020,13 +4016,13 @@ packages:
       picomatch: registry.npmmirror.com/picomatch@2.3.1
 
   registry.npmmirror.com/aproba@2.0.0:
-    resolution: {integrity: sha512-lYe4Gx7QT+MKGbDsA+Z+he/Wtef0BiwDOlK/XkBrdfsh9J/jPPXbX0tE9x9cl27Tmu5gg3QUbUrQYa/y+KOHPQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/aproba/-/aproba-2.0.0.tgz}
+    resolution: {integrity: sha512-lYe4Gx7QT+MKGbDsA+Z+he/Wtef0BiwDOlK/XkBrdfsh9J/jPPXbX0tE9x9cl27Tmu5gg3QUbUrQYa/y+KOHPQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/aproba/-/aproba-2.0.0.tgz}
     name: aproba
     version: 2.0.0
     dev: false
 
   registry.npmmirror.com/are-we-there-yet@2.0.0:
-    resolution: {integrity: sha512-Ci/qENmwHnsYo9xKIcUJN5LeDKdJ6R1Z1j9V/J5wyq8nh/mYPEpIKJbBZXtZjG04HiK7zV/p6Vs9952MrMeUIw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/are-we-there-yet/-/are-we-there-yet-2.0.0.tgz}
+    resolution: {integrity: sha512-Ci/qENmwHnsYo9xKIcUJN5LeDKdJ6R1Z1j9V/J5wyq8nh/mYPEpIKJbBZXtZjG04HiK7zV/p6Vs9952MrMeUIw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/are-we-there-yet/-/are-we-there-yet-2.0.0.tgz}
     name: are-we-there-yet
     version: 2.0.0
     engines: {node: '>=10'}
@@ -4036,12 +4032,12 @@ packages:
     dev: false
 
   registry.npmmirror.com/arg@5.0.2:
-    resolution: {integrity: sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/arg/-/arg-5.0.2.tgz}
+    resolution: {integrity: sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/arg/-/arg-5.0.2.tgz}
     name: arg
     version: 5.0.2
 
   registry.npmmirror.com/aria-hidden@1.2.3:
-    resolution: {integrity: sha512-xcLxITLe2HYa1cnYnwCjkOO1PqUHQpozB8x9AR0OgWN2woOBi5kSDVxKfd0b7sb1hw5qFeJhXm9H1nu3xSfLeQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/aria-hidden/-/aria-hidden-1.2.3.tgz}
+    resolution: {integrity: sha512-xcLxITLe2HYa1cnYnwCjkOO1PqUHQpozB8x9AR0OgWN2woOBi5kSDVxKfd0b7sb1hw5qFeJhXm9H1nu3xSfLeQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/aria-hidden/-/aria-hidden-1.2.3.tgz}
     name: aria-hidden
     version: 1.2.3
     engines: {node: '>=10'}
@@ -4050,12 +4046,12 @@ packages:
     dev: false
 
   registry.npmmirror.com/balanced-match@1.0.2:
-    resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/balanced-match/-/balanced-match-1.0.2.tgz}
+    resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/balanced-match/-/balanced-match-1.0.2.tgz}
     name: balanced-match
     version: 1.0.2
 
   registry.npmmirror.com/bcrypt@5.1.0:
-    resolution: {integrity: sha512-RHBS7HI5N5tEnGTmtR/pppX0mmDSBpQ4aCBsj7CEQfYXDcO74A8sIBYcJMuCsis2E81zDxeENYhv66oZwLiA+Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/bcrypt/-/bcrypt-5.1.0.tgz}
+    resolution: {integrity: sha512-RHBS7HI5N5tEnGTmtR/pppX0mmDSBpQ4aCBsj7CEQfYXDcO74A8sIBYcJMuCsis2E81zDxeENYhv66oZwLiA+Q==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/bcrypt/-/bcrypt-5.1.0.tgz}
     name: bcrypt
     version: 5.1.0
     engines: {node: '>= 10.0.0'}
@@ -4069,13 +4065,13 @@ packages:
     dev: false
 
   registry.npmmirror.com/binary-extensions@2.2.0:
-    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/binary-extensions/-/binary-extensions-2.2.0.tgz}
+    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/binary-extensions/-/binary-extensions-2.2.0.tgz}
     name: binary-extensions
     version: 2.2.0
     engines: {node: '>=8'}
 
   registry.npmmirror.com/brace-expansion@1.1.11:
-    resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/brace-expansion/-/brace-expansion-1.1.11.tgz}
+    resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/brace-expansion/-/brace-expansion-1.1.11.tgz}
     name: brace-expansion
     version: 1.1.11
     dependencies:
@@ -4083,7 +4079,7 @@ packages:
       concat-map: registry.npmmirror.com/concat-map@0.0.1
 
   registry.npmmirror.com/braces@3.0.2:
-    resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/braces/-/braces-3.0.2.tgz}
+    resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/braces/-/braces-3.0.2.tgz}
     name: braces
     version: 3.0.2
     engines: {node: '>=8'}
@@ -4091,13 +4087,13 @@ packages:
       fill-range: registry.npmmirror.com/fill-range@7.0.1
 
   registry.npmmirror.com/camelcase-css@2.0.1:
-    resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/camelcase-css/-/camelcase-css-2.0.1.tgz}
+    resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/camelcase-css/-/camelcase-css-2.0.1.tgz}
     name: camelcase-css
     version: 2.0.1
     engines: {node: '>= 6'}
 
   registry.npmmirror.com/chokidar@3.5.3:
-    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz}
+    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz}
     name: chokidar
     version: 3.5.3
     engines: {node: '>= 8.10.0'}
@@ -4110,57 +4106,48 @@ packages:
       normalize-path: registry.npmmirror.com/normalize-path@3.0.0
       readdirp: registry.npmmirror.com/readdirp@3.6.0
     optionalDependencies:
-      fsevents: registry.npmmirror.com/fsevents@2.3.2
+      fsevents: 2.3.2
 
   registry.npmmirror.com/chownr@2.0.0:
-    resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/chownr/-/chownr-2.0.0.tgz}
+    resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/chownr/-/chownr-2.0.0.tgz}
     name: chownr
     version: 2.0.0
     engines: {node: '>=10'}
     dev: false
 
   registry.npmmirror.com/color-support@1.1.3:
-    resolution: {integrity: sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/color-support/-/color-support-1.1.3.tgz}
+    resolution: {integrity: sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/color-support/-/color-support-1.1.3.tgz}
     name: color-support
     version: 1.1.3
     hasBin: true
     dev: false
 
   registry.npmmirror.com/commander@4.1.1:
-    resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/commander/-/commander-4.1.1.tgz}
+    resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/commander/-/commander-4.1.1.tgz}
     name: commander
     version: 4.1.1
     engines: {node: '>= 6'}
 
   registry.npmmirror.com/concat-map@0.0.1:
-    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/concat-map/-/concat-map-0.0.1.tgz}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/concat-map/-/concat-map-0.0.1.tgz}
     name: concat-map
     version: 0.0.1
 
   registry.npmmirror.com/console-control-strings@1.1.0:
-    resolution: {integrity: sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/console-control-strings/-/console-control-strings-1.1.0.tgz}
+    resolution: {integrity: sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/console-control-strings/-/console-control-strings-1.1.0.tgz}
     name: console-control-strings
     version: 1.1.0
     dev: false
 
   registry.npmmirror.com/cssesc@3.0.0:
-    resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cssesc/-/cssesc-3.0.0.tgz}
+    resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/cssesc/-/cssesc-3.0.0.tgz}
     name: cssesc
     version: 3.0.0
     engines: {node: '>=4'}
     hasBin: true
 
-  registry.npmmirror.com/date-fns@2.30.0:
-    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/date-fns/-/date-fns-2.30.0.tgz}
-    name: date-fns
-    version: 2.30.0
-    engines: {node: '>=0.11'}
-    dependencies:
-      '@babel/runtime': registry.npmmirror.com/@babel/runtime@7.21.5
-    dev: false
-
   registry.npmmirror.com/debug@3.2.7:
-    resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/debug/-/debug-3.2.7.tgz}
+    resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/debug/-/debug-3.2.7.tgz}
     name: debug
     version: 3.2.7
     peerDependencies:
@@ -4173,7 +4160,7 @@ packages:
     dev: true
 
   registry.npmmirror.com/debug@4.3.4:
-    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz}
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz}
     name: debug
     version: 4.3.4
     engines: {node: '>=6.0'}
@@ -4187,42 +4174,42 @@ packages:
     dev: false
 
   registry.npmmirror.com/delegates@1.0.0:
-    resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/delegates/-/delegates-1.0.0.tgz}
+    resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/delegates/-/delegates-1.0.0.tgz}
     name: delegates
     version: 1.0.0
     dev: false
 
   registry.npmmirror.com/detect-libc@2.0.1:
-    resolution: {integrity: sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/detect-libc/-/detect-libc-2.0.1.tgz}
+    resolution: {integrity: sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/detect-libc/-/detect-libc-2.0.1.tgz}
     name: detect-libc
     version: 2.0.1
     engines: {node: '>=8'}
     dev: false
 
   registry.npmmirror.com/detect-node-es@1.1.0:
-    resolution: {integrity: sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/detect-node-es/-/detect-node-es-1.1.0.tgz}
+    resolution: {integrity: sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/detect-node-es/-/detect-node-es-1.1.0.tgz}
     name: detect-node-es
     version: 1.1.0
     dev: false
 
   registry.npmmirror.com/didyoumean@1.2.2:
-    resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/didyoumean/-/didyoumean-1.2.2.tgz}
+    resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/didyoumean/-/didyoumean-1.2.2.tgz}
     name: didyoumean
     version: 1.2.2
 
   registry.npmmirror.com/dlv@1.1.3:
-    resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dlv/-/dlv-1.1.3.tgz}
+    resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/dlv/-/dlv-1.1.3.tgz}
     name: dlv
     version: 1.1.3
 
   registry.npmmirror.com/emoji-regex@8.0.0:
-    resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/emoji-regex/-/emoji-regex-8.0.0.tgz}
+    resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/emoji-regex/-/emoji-regex-8.0.0.tgz}
     name: emoji-regex
     version: 8.0.0
     dev: false
 
   registry.npmmirror.com/fast-glob@3.2.12:
-    resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fast-glob/-/fast-glob-3.2.12.tgz}
+    resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/fast-glob/-/fast-glob-3.2.12.tgz}
     name: fast-glob
     version: 3.2.12
     engines: {node: '>=8.6.0'}
@@ -4234,14 +4221,14 @@ packages:
       micromatch: registry.npmmirror.com/micromatch@4.0.5
 
   registry.npmmirror.com/fastq@1.15.0:
-    resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fastq/-/fastq-1.15.0.tgz}
+    resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/fastq/-/fastq-1.15.0.tgz}
     name: fastq
     version: 1.15.0
     dependencies:
       reusify: registry.npmmirror.com/reusify@1.0.4
 
   registry.npmmirror.com/fill-range@7.0.1:
-    resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fill-range/-/fill-range-7.0.1.tgz}
+    resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/fill-range/-/fill-range-7.0.1.tgz}
     name: fill-range
     version: 7.0.1
     engines: {node: '>=8'}
@@ -4249,7 +4236,7 @@ packages:
       to-regex-range: registry.npmmirror.com/to-regex-range@5.0.1
 
   registry.npmmirror.com/fs-minipass@2.1.0:
-    resolution: {integrity: sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fs-minipass/-/fs-minipass-2.1.0.tgz}
+    resolution: {integrity: sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/fs-minipass/-/fs-minipass-2.1.0.tgz}
     name: fs-minipass
     version: 2.1.0
     engines: {node: '>= 8'}
@@ -4258,26 +4245,17 @@ packages:
     dev: false
 
   registry.npmmirror.com/fs.realpath@1.0.0:
-    resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fs.realpath/-/fs.realpath-1.0.0.tgz}
+    resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/fs.realpath/-/fs.realpath-1.0.0.tgz}
     name: fs.realpath
     version: 1.0.0
 
-  registry.npmmirror.com/fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fsevents/-/fsevents-2.3.2.tgz}
-    name: fsevents
-    version: 2.3.2
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    optional: true
-
   registry.npmmirror.com/function-bind@1.1.1:
-    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/function-bind/-/function-bind-1.1.1.tgz}
+    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/function-bind/-/function-bind-1.1.1.tgz}
     name: function-bind
     version: 1.1.1
 
   registry.npmmirror.com/gauge@3.0.2:
-    resolution: {integrity: sha512-+5J6MS/5XksCuXq++uFRsnUd7Ovu1XenbeuIuNRJxYWjgQbPuFhT14lAvsWfqfAmnwluf1OwMjz39HjfLPci0Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/gauge/-/gauge-3.0.2.tgz}
+    resolution: {integrity: sha512-+5J6MS/5XksCuXq++uFRsnUd7Ovu1XenbeuIuNRJxYWjgQbPuFhT14lAvsWfqfAmnwluf1OwMjz39HjfLPci0Q==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/gauge/-/gauge-3.0.2.tgz}
     name: gauge
     version: 3.0.2
     engines: {node: '>=10'}
@@ -4294,14 +4272,14 @@ packages:
     dev: false
 
   registry.npmmirror.com/get-nonce@1.0.1:
-    resolution: {integrity: sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/get-nonce/-/get-nonce-1.0.1.tgz}
+    resolution: {integrity: sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/get-nonce/-/get-nonce-1.0.1.tgz}
     name: get-nonce
     version: 1.0.1
     engines: {node: '>=6'}
     dev: false
 
   registry.npmmirror.com/glob-parent@5.1.2:
-    resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/glob-parent/-/glob-parent-5.1.2.tgz}
+    resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/glob-parent/-/glob-parent-5.1.2.tgz}
     name: glob-parent
     version: 5.1.2
     engines: {node: '>= 6'}
@@ -4309,7 +4287,7 @@ packages:
       is-glob: registry.npmmirror.com/is-glob@4.0.3
 
   registry.npmmirror.com/glob-parent@6.0.2:
-    resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/glob-parent/-/glob-parent-6.0.2.tgz}
+    resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/glob-parent/-/glob-parent-6.0.2.tgz}
     name: glob-parent
     version: 6.0.2
     engines: {node: '>=10.13.0'}
@@ -4317,7 +4295,7 @@ packages:
       is-glob: registry.npmmirror.com/is-glob@4.0.3
 
   registry.npmmirror.com/glob@7.1.6:
-    resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/glob/-/glob-7.1.6.tgz}
+    resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/glob/-/glob-7.1.6.tgz}
     name: glob
     version: 7.1.6
     dependencies:
@@ -4329,7 +4307,7 @@ packages:
       path-is-absolute: registry.npmmirror.com/path-is-absolute@1.0.1
 
   registry.npmmirror.com/glob@7.2.3:
-    resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/glob/-/glob-7.2.3.tgz}
+    resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/glob/-/glob-7.2.3.tgz}
     name: glob
     version: 7.2.3
     dependencies:
@@ -4341,13 +4319,13 @@ packages:
       path-is-absolute: registry.npmmirror.com/path-is-absolute@1.0.1
 
   registry.npmmirror.com/has-unicode@2.0.1:
-    resolution: {integrity: sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/has-unicode/-/has-unicode-2.0.1.tgz}
+    resolution: {integrity: sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/has-unicode/-/has-unicode-2.0.1.tgz}
     name: has-unicode
     version: 2.0.1
     dev: false
 
   registry.npmmirror.com/has@1.0.3:
-    resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/has/-/has-1.0.3.tgz}
+    resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/has/-/has-1.0.3.tgz}
     name: has
     version: 1.0.3
     engines: {node: '>= 0.4.0'}
@@ -4355,7 +4333,7 @@ packages:
       function-bind: registry.npmmirror.com/function-bind@1.1.1
 
   registry.npmmirror.com/https-proxy-agent@5.0.1:
-    resolution: {integrity: sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz}
+    resolution: {integrity: sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz}
     name: https-proxy-agent
     version: 5.0.1
     engines: {node: '>= 6'}
@@ -4367,7 +4345,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/inflight@1.0.6:
-    resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/inflight/-/inflight-1.0.6.tgz}
+    resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/inflight/-/inflight-1.0.6.tgz}
     name: inflight
     version: 1.0.6
     dependencies:
@@ -4375,12 +4353,12 @@ packages:
       wrappy: registry.npmmirror.com/wrappy@1.0.2
 
   registry.npmmirror.com/inherits@2.0.4:
-    resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz}
+    resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz}
     name: inherits
     version: 2.0.4
 
   registry.npmmirror.com/invariant@2.2.4:
-    resolution: {integrity: sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/invariant/-/invariant-2.2.4.tgz}
+    resolution: {integrity: sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/invariant/-/invariant-2.2.4.tgz}
     name: invariant
     version: 2.2.4
     dependencies:
@@ -4388,7 +4366,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/is-binary-path@2.1.0:
-    resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-binary-path/-/is-binary-path-2.1.0.tgz}
+    resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/is-binary-path/-/is-binary-path-2.1.0.tgz}
     name: is-binary-path
     version: 2.1.0
     engines: {node: '>=8'}
@@ -4396,27 +4374,27 @@ packages:
       binary-extensions: registry.npmmirror.com/binary-extensions@2.2.0
 
   registry.npmmirror.com/is-core-module@2.12.1:
-    resolution: {integrity: sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-core-module/-/is-core-module-2.12.1.tgz}
+    resolution: {integrity: sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/is-core-module/-/is-core-module-2.12.1.tgz}
     name: is-core-module
     version: 2.12.1
     dependencies:
       has: registry.npmmirror.com/has@1.0.3
 
   registry.npmmirror.com/is-extglob@2.1.1:
-    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz}
+    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz}
     name: is-extglob
     version: 2.1.1
     engines: {node: '>=0.10.0'}
 
   registry.npmmirror.com/is-fullwidth-code-point@3.0.0:
-    resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz}
+    resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz}
     name: is-fullwidth-code-point
     version: 3.0.0
     engines: {node: '>=8'}
     dev: false
 
   registry.npmmirror.com/is-glob@4.0.3:
-    resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz}
+    resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz}
     name: is-glob
     version: 4.0.3
     engines: {node: '>=0.10.0'}
@@ -4424,36 +4402,36 @@ packages:
       is-extglob: registry.npmmirror.com/is-extglob@2.1.1
 
   registry.npmmirror.com/is-number@7.0.0:
-    resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz}
+    resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz}
     name: is-number
     version: 7.0.0
     engines: {node: '>=0.12.0'}
 
   registry.npmmirror.com/jiti@1.18.2:
-    resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jiti/-/jiti-1.18.2.tgz}
+    resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/jiti/-/jiti-1.18.2.tgz}
     name: jiti
     version: 1.18.2
     hasBin: true
 
   registry.npmmirror.com/js-tokens@4.0.0:
-    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz}
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz}
     name: js-tokens
     version: 4.0.0
     dev: false
 
   registry.npmmirror.com/lilconfig@2.1.0:
-    resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/lilconfig/-/lilconfig-2.1.0.tgz}
+    resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/lilconfig/-/lilconfig-2.1.0.tgz}
     name: lilconfig
     version: 2.1.0
     engines: {node: '>=10'}
 
   registry.npmmirror.com/lines-and-columns@1.2.4:
-    resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz}
+    resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz}
     name: lines-and-columns
     version: 1.2.4
 
   registry.npmmirror.com/loose-envify@1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz}
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz}
     name: loose-envify
     version: 1.4.0
     hasBin: true
@@ -4462,7 +4440,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/lru-cache@6.0.0:
-    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/lru-cache/-/lru-cache-6.0.0.tgz}
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/lru-cache/-/lru-cache-6.0.0.tgz}
     name: lru-cache
     version: 6.0.0
     engines: {node: '>=10'}
@@ -4471,7 +4449,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/make-dir@3.1.0:
-    resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/make-dir/-/make-dir-3.1.0.tgz}
+    resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/make-dir/-/make-dir-3.1.0.tgz}
     name: make-dir
     version: 3.1.0
     engines: {node: '>=8'}
@@ -4480,13 +4458,13 @@ packages:
     dev: false
 
   registry.npmmirror.com/merge2@1.4.1:
-    resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz}
+    resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz}
     name: merge2
     version: 1.4.1
     engines: {node: '>= 8'}
 
   registry.npmmirror.com/micromatch@4.0.5:
-    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/micromatch/-/micromatch-4.0.5.tgz}
+    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/micromatch/-/micromatch-4.0.5.tgz}
     name: micromatch
     version: 4.0.5
     engines: {node: '>=8.6'}
@@ -4495,14 +4473,14 @@ packages:
       picomatch: registry.npmmirror.com/picomatch@2.3.1
 
   registry.npmmirror.com/minimatch@3.1.2:
-    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/minimatch/-/minimatch-3.1.2.tgz}
+    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/minimatch/-/minimatch-3.1.2.tgz}
     name: minimatch
     version: 3.1.2
     dependencies:
       brace-expansion: registry.npmmirror.com/brace-expansion@1.1.11
 
   registry.npmmirror.com/minipass@3.3.6:
-    resolution: {integrity: sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/minipass/-/minipass-3.3.6.tgz}
+    resolution: {integrity: sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/minipass/-/minipass-3.3.6.tgz}
     name: minipass
     version: 3.3.6
     engines: {node: '>=8'}
@@ -4511,14 +4489,14 @@ packages:
     dev: false
 
   registry.npmmirror.com/minipass@5.0.0:
-    resolution: {integrity: sha512-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/minipass/-/minipass-5.0.0.tgz}
+    resolution: {integrity: sha512-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/minipass/-/minipass-5.0.0.tgz}
     name: minipass
     version: 5.0.0
     engines: {node: '>=8'}
     dev: false
 
   registry.npmmirror.com/minizlib@2.1.2:
-    resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/minizlib/-/minizlib-2.1.2.tgz}
+    resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/minizlib/-/minizlib-2.1.2.tgz}
     name: minizlib
     version: 2.1.2
     engines: {node: '>= 8'}
@@ -4528,7 +4506,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/mkdirp@1.0.4:
-    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mkdirp/-/mkdirp-1.0.4.tgz}
+    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/mkdirp/-/mkdirp-1.0.4.tgz}
     name: mkdirp
     version: 1.0.4
     engines: {node: '>=10'}
@@ -4536,13 +4514,13 @@ packages:
     dev: false
 
   registry.npmmirror.com/ms@2.1.2:
-    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz}
+    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz}
     name: ms
     version: 2.1.2
     dev: false
 
   registry.npmmirror.com/mz@2.7.0:
-    resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mz/-/mz-2.7.0.tgz}
+    resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/mz/-/mz-2.7.0.tgz}
     name: mz
     version: 2.7.0
     dependencies:
@@ -4551,20 +4529,20 @@ packages:
       thenify-all: registry.npmmirror.com/thenify-all@1.6.0
 
   registry.npmmirror.com/nanoid@3.3.6:
-    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nanoid/-/nanoid-3.3.6.tgz}
+    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/nanoid/-/nanoid-3.3.6.tgz}
     name: nanoid
     version: 3.3.6
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
   registry.npmmirror.com/node-addon-api@5.1.0:
-    resolution: {integrity: sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/node-addon-api/-/node-addon-api-5.1.0.tgz}
+    resolution: {integrity: sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/node-addon-api/-/node-addon-api-5.1.0.tgz}
     name: node-addon-api
     version: 5.1.0
     dev: false
 
   registry.npmmirror.com/node-fetch@2.6.11:
-    resolution: {integrity: sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/node-fetch/-/node-fetch-2.6.11.tgz}
+    resolution: {integrity: sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/node-fetch/-/node-fetch-2.6.11.tgz}
     name: node-fetch
     version: 2.6.11
     engines: {node: 4.x || >=6.0.0}
@@ -4578,7 +4556,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/nopt@5.0.0:
-    resolution: {integrity: sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nopt/-/nopt-5.0.0.tgz}
+    resolution: {integrity: sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/nopt/-/nopt-5.0.0.tgz}
     name: nopt
     version: 5.0.0
     engines: {node: '>=6'}
@@ -4588,13 +4566,13 @@ packages:
     dev: false
 
   registry.npmmirror.com/normalize-path@3.0.0:
-    resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz}
+    resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz}
     name: normalize-path
     version: 3.0.0
     engines: {node: '>=0.10.0'}
 
   registry.npmmirror.com/npmlog@5.0.1:
-    resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/npmlog/-/npmlog-5.0.1.tgz}
+    resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/npmlog/-/npmlog-5.0.1.tgz}
     name: npmlog
     version: 5.0.1
     dependencies:
@@ -4605,67 +4583,67 @@ packages:
     dev: false
 
   registry.npmmirror.com/object-assign@4.1.1:
-    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/object-assign/-/object-assign-4.1.1.tgz}
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/object-assign/-/object-assign-4.1.1.tgz}
     name: object-assign
     version: 4.1.1
     engines: {node: '>=0.10.0'}
 
   registry.npmmirror.com/object-hash@2.2.0:
-    resolution: {integrity: sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/object-hash/-/object-hash-2.2.0.tgz}
+    resolution: {integrity: sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/object-hash/-/object-hash-2.2.0.tgz}
     name: object-hash
     version: 2.2.0
     engines: {node: '>= 6'}
     dev: false
 
   registry.npmmirror.com/object-hash@3.0.0:
-    resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/object-hash/-/object-hash-3.0.0.tgz}
+    resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/object-hash/-/object-hash-3.0.0.tgz}
     name: object-hash
     version: 3.0.0
     engines: {node: '>= 6'}
 
   registry.npmmirror.com/once@1.4.0:
-    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/once/-/once-1.4.0.tgz}
+    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/once/-/once-1.4.0.tgz}
     name: once
     version: 1.4.0
     dependencies:
       wrappy: registry.npmmirror.com/wrappy@1.0.2
 
   registry.npmmirror.com/path-is-absolute@1.0.1:
-    resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz}
+    resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz}
     name: path-is-absolute
     version: 1.0.1
     engines: {node: '>=0.10.0'}
 
   registry.npmmirror.com/path-parse@1.0.7:
-    resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/path-parse/-/path-parse-1.0.7.tgz}
+    resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/path-parse/-/path-parse-1.0.7.tgz}
     name: path-parse
     version: 1.0.7
 
   registry.npmmirror.com/picocolors@1.0.0:
-    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/picocolors/-/picocolors-1.0.0.tgz}
+    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/picocolors/-/picocolors-1.0.0.tgz}
     name: picocolors
     version: 1.0.0
 
   registry.npmmirror.com/picomatch@2.3.1:
-    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz}
+    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz}
     name: picomatch
     version: 2.3.1
     engines: {node: '>=8.6'}
 
   registry.npmmirror.com/pify@2.3.0:
-    resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pify/-/pify-2.3.0.tgz}
+    resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/pify/-/pify-2.3.0.tgz}
     name: pify
     version: 2.3.0
     engines: {node: '>=0.10.0'}
 
   registry.npmmirror.com/pirates@4.0.5:
-    resolution: {integrity: sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pirates/-/pirates-4.0.5.tgz}
+    resolution: {integrity: sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/pirates/-/pirates-4.0.5.tgz}
     name: pirates
     version: 4.0.5
     engines: {node: '>= 6'}
 
   registry.npmmirror.com/postcss-import@15.1.0(postcss@8.4.24):
-    resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-import/-/postcss-import-15.1.0.tgz}
+    resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/postcss-import/-/postcss-import-15.1.0.tgz}
     id: registry.npmmirror.com/postcss-import/15.1.0
     name: postcss-import
     version: 15.1.0
@@ -4679,7 +4657,7 @@ packages:
       resolve: registry.npmmirror.com/resolve@1.22.3
 
   registry.npmmirror.com/postcss-js@4.0.1(postcss@8.4.24):
-    resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-js/-/postcss-js-4.0.1.tgz}
+    resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/postcss-js/-/postcss-js-4.0.1.tgz}
     id: registry.npmmirror.com/postcss-js/4.0.1
     name: postcss-js
     version: 4.0.1
@@ -4691,7 +4669,7 @@ packages:
       postcss: registry.npmmirror.com/postcss@8.4.24
 
   registry.npmmirror.com/postcss-load-config@4.0.1(postcss@8.4.24):
-    resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-load-config/-/postcss-load-config-4.0.1.tgz}
+    resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/postcss-load-config/-/postcss-load-config-4.0.1.tgz}
     id: registry.npmmirror.com/postcss-load-config/4.0.1
     name: postcss-load-config
     version: 4.0.1
@@ -4710,7 +4688,7 @@ packages:
       yaml: registry.npmmirror.com/yaml@2.3.1
 
   registry.npmmirror.com/postcss-nested@6.0.1(postcss@8.4.24):
-    resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-nested/-/postcss-nested-6.0.1.tgz}
+    resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/postcss-nested/-/postcss-nested-6.0.1.tgz}
     id: registry.npmmirror.com/postcss-nested/6.0.1
     name: postcss-nested
     version: 6.0.1
@@ -4722,7 +4700,7 @@ packages:
       postcss-selector-parser: registry.npmmirror.com/postcss-selector-parser@6.0.13
 
   registry.npmmirror.com/postcss-selector-parser@6.0.13:
-    resolution: {integrity: sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-selector-parser/-/postcss-selector-parser-6.0.13.tgz}
+    resolution: {integrity: sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/postcss-selector-parser/-/postcss-selector-parser-6.0.13.tgz}
     name: postcss-selector-parser
     version: 6.0.13
     engines: {node: '>=4'}
@@ -4731,12 +4709,12 @@ packages:
       util-deprecate: registry.npmmirror.com/util-deprecate@1.0.2
 
   registry.npmmirror.com/postcss-value-parser@4.2.0:
-    resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz}
+    resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz}
     name: postcss-value-parser
     version: 4.2.0
 
   registry.npmmirror.com/postcss@8.4.24:
-    resolution: {integrity: sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.4.24.tgz}
+    resolution: {integrity: sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.4.24.tgz}
     name: postcss
     version: 8.4.24
     engines: {node: ^10 || ^12 || >=14}
@@ -4746,12 +4724,12 @@ packages:
       source-map-js: registry.npmmirror.com/source-map-js@1.0.2
 
   registry.npmmirror.com/queue-microtask@1.2.3:
-    resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz}
+    resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz}
     name: queue-microtask
     version: 1.2.3
 
   registry.npmmirror.com/react-hook-form@7.44.2(react@18.2.0):
-    resolution: {integrity: sha512-IyihmIbCwzDI/iqlecTRa7+4BCnzNx40upSlGvIU7qwENhTf6APatm4bmL9ANtWKPYlD67SIlxfls7GwCUe+Lg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-hook-form/-/react-hook-form-7.44.2.tgz}
+    resolution: {integrity: sha512-IyihmIbCwzDI/iqlecTRa7+4BCnzNx40upSlGvIU7qwENhTf6APatm4bmL9ANtWKPYlD67SIlxfls7GwCUe+Lg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/react-hook-form/-/react-hook-form-7.44.2.tgz}
     id: registry.npmmirror.com/react-hook-form/7.44.2
     name: react-hook-form
     version: 7.44.2
@@ -4763,7 +4741,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/react-remove-scroll-bar@2.3.4(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-63C4YQBUt0m6ALadE9XV56hV8BgJWDmmTPY758iIJjfQKt2nYwoUrPk0LXRXcB/yIj82T1/Ixfdpdk68LwIB0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.4.tgz}
+    resolution: {integrity: sha512-63C4YQBUt0m6ALadE9XV56hV8BgJWDmmTPY758iIJjfQKt2nYwoUrPk0LXRXcB/yIj82T1/Ixfdpdk68LwIB0A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.4.tgz}
     id: registry.npmmirror.com/react-remove-scroll-bar/2.3.4
     name: react-remove-scroll-bar
     version: 2.3.4
@@ -4782,7 +4760,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/react-remove-scroll@2.5.5(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-ImKhrzJJsyXJfBZ4bzu8Bwpka14c/fQt0k+cyFp/PBhTfyDnU5hjOtM4AG/0AMyy8oKzOTR0lDgJIM7pYXI0kw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-remove-scroll/-/react-remove-scroll-2.5.5.tgz}
+    resolution: {integrity: sha512-ImKhrzJJsyXJfBZ4bzu8Bwpka14c/fQt0k+cyFp/PBhTfyDnU5hjOtM4AG/0AMyy8oKzOTR0lDgJIM7pYXI0kw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/react-remove-scroll/-/react-remove-scroll-2.5.5.tgz}
     id: registry.npmmirror.com/react-remove-scroll/2.5.5
     name: react-remove-scroll
     version: 2.5.5
@@ -4804,7 +4782,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/react-style-singleton@2.2.1(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-style-singleton/-/react-style-singleton-2.2.1.tgz}
+    resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/react-style-singleton/-/react-style-singleton-2.2.1.tgz}
     id: registry.npmmirror.com/react-style-singleton/2.2.1
     name: react-style-singleton
     version: 2.2.1
@@ -4824,14 +4802,14 @@ packages:
     dev: false
 
   registry.npmmirror.com/read-cache@1.0.0:
-    resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/read-cache/-/read-cache-1.0.0.tgz}
+    resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/read-cache/-/read-cache-1.0.0.tgz}
     name: read-cache
     version: 1.0.0
     dependencies:
       pify: registry.npmmirror.com/pify@2.3.0
 
   registry.npmmirror.com/readable-stream@3.6.2:
-    resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/readable-stream/-/readable-stream-3.6.2.tgz}
+    resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/readable-stream/-/readable-stream-3.6.2.tgz}
     name: readable-stream
     version: 3.6.2
     engines: {node: '>= 6'}
@@ -4842,7 +4820,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/readdirp@3.6.0:
-    resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/readdirp/-/readdirp-3.6.0.tgz}
+    resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/readdirp/-/readdirp-3.6.0.tgz}
     name: readdirp
     version: 3.6.0
     engines: {node: '>=8.10.0'}
@@ -4850,12 +4828,12 @@ packages:
       picomatch: registry.npmmirror.com/picomatch@2.3.1
 
   registry.npmmirror.com/regenerator-runtime@0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz}
+    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz}
     name: regenerator-runtime
     version: 0.13.11
 
   registry.npmmirror.com/resolve@1.22.3:
-    resolution: {integrity: sha512-P8ur/gp/AmbEzjr729bZnLjXK5Z+4P0zhIJgBgzqRih7hL7BOukHGtSTA3ACMY467GRFz3duQsi0bDZdR7DKdw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/resolve/-/resolve-1.22.3.tgz}
+    resolution: {integrity: sha512-P8ur/gp/AmbEzjr729bZnLjXK5Z+4P0zhIJgBgzqRih7hL7BOukHGtSTA3ACMY467GRFz3duQsi0bDZdR7DKdw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/resolve/-/resolve-1.22.3.tgz}
     name: resolve
     version: 1.22.3
     hasBin: true
@@ -4865,13 +4843,13 @@ packages:
       supports-preserve-symlinks-flag: registry.npmmirror.com/supports-preserve-symlinks-flag@1.0.0
 
   registry.npmmirror.com/reusify@1.0.4:
-    resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/reusify/-/reusify-1.0.4.tgz}
+    resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/reusify/-/reusify-1.0.4.tgz}
     name: reusify
     version: 1.0.4
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
   registry.npmmirror.com/rimraf@3.0.2:
-    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rimraf/-/rimraf-3.0.2.tgz}
+    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/rimraf/-/rimraf-3.0.2.tgz}
     name: rimraf
     version: 3.0.2
     hasBin: true
@@ -4879,26 +4857,26 @@ packages:
       glob: registry.npmmirror.com/glob@7.2.3
 
   registry.npmmirror.com/run-parallel@1.2.0:
-    resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/run-parallel/-/run-parallel-1.2.0.tgz}
+    resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/run-parallel/-/run-parallel-1.2.0.tgz}
     name: run-parallel
     version: 1.2.0
     dependencies:
       queue-microtask: registry.npmmirror.com/queue-microtask@1.2.3
 
   registry.npmmirror.com/safe-buffer@5.2.1:
-    resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/safe-buffer/-/safe-buffer-5.2.1.tgz}
+    resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/safe-buffer/-/safe-buffer-5.2.1.tgz}
     name: safe-buffer
     version: 5.2.1
     dev: false
 
   registry.npmmirror.com/semver@6.3.0:
-    resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/semver/-/semver-6.3.0.tgz}
+    resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/semver/-/semver-6.3.0.tgz}
     name: semver
     version: 6.3.0
     hasBin: true
 
   registry.npmmirror.com/semver@7.5.1:
-    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/semver/-/semver-7.5.1.tgz}
+    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/semver/-/semver-7.5.1.tgz}
     name: semver
     version: 7.5.1
     engines: {node: '>=10'}
@@ -4908,25 +4886,25 @@ packages:
     dev: false
 
   registry.npmmirror.com/set-blocking@2.0.0:
-    resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/set-blocking/-/set-blocking-2.0.0.tgz}
+    resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/set-blocking/-/set-blocking-2.0.0.tgz}
     name: set-blocking
     version: 2.0.0
     dev: false
 
   registry.npmmirror.com/signal-exit@3.0.7:
-    resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/signal-exit/-/signal-exit-3.0.7.tgz}
+    resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/signal-exit/-/signal-exit-3.0.7.tgz}
     name: signal-exit
     version: 3.0.7
     dev: false
 
   registry.npmmirror.com/source-map-js@1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/source-map-js/-/source-map-js-1.0.2.tgz}
+    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/source-map-js/-/source-map-js-1.0.2.tgz}
     name: source-map-js
     version: 1.0.2
     engines: {node: '>=0.10.0'}
 
   registry.npmmirror.com/string-width@4.2.3:
-    resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/string-width/-/string-width-4.2.3.tgz}
+    resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/string-width/-/string-width-4.2.3.tgz}
     name: string-width
     version: 4.2.3
     engines: {node: '>=8'}
@@ -4937,7 +4915,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/string_decoder@1.3.0:
-    resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/string_decoder/-/string_decoder-1.3.0.tgz}
+    resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/string_decoder/-/string_decoder-1.3.0.tgz}
     name: string_decoder
     version: 1.3.0
     dependencies:
@@ -4945,7 +4923,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/strip-ansi@6.0.1:
-    resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/strip-ansi/-/strip-ansi-6.0.1.tgz}
+    resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/strip-ansi/-/strip-ansi-6.0.1.tgz}
     name: strip-ansi
     version: 6.0.1
     engines: {node: '>=8'}
@@ -4954,7 +4932,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/sucrase@3.32.0:
-    resolution: {integrity: sha512-ydQOU34rpSyj2TGyz4D2p8rbktIOZ8QY9s+DGLvFU1i5pWJE8vkpruCjGCMHsdXwnD7JDcS+noSwM/a7zyNFDQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/sucrase/-/sucrase-3.32.0.tgz}
+    resolution: {integrity: sha512-ydQOU34rpSyj2TGyz4D2p8rbktIOZ8QY9s+DGLvFU1i5pWJE8vkpruCjGCMHsdXwnD7JDcS+noSwM/a7zyNFDQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/sucrase/-/sucrase-3.32.0.tgz}
     name: sucrase
     version: 3.32.0
     engines: {node: '>=8'}
@@ -4969,13 +4947,13 @@ packages:
       ts-interface-checker: registry.npmmirror.com/ts-interface-checker@0.1.13
 
   registry.npmmirror.com/supports-preserve-symlinks-flag@1.0.0:
-    resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz}
+    resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz}
     name: supports-preserve-symlinks-flag
     version: 1.0.0
     engines: {node: '>= 0.4'}
 
   registry.npmmirror.com/tailwindcss@3.3.2:
-    resolution: {integrity: sha512-9jPkMiIBXvPc2KywkraqsUfbfj+dHDb+JPWtSJa9MLFdrPyazI7q6WX2sUrm7R9eVR7qqv3Pas7EvQFzxKnI6w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tailwindcss/-/tailwindcss-3.3.2.tgz}
+    resolution: {integrity: sha512-9jPkMiIBXvPc2KywkraqsUfbfj+dHDb+JPWtSJa9MLFdrPyazI7q6WX2sUrm7R9eVR7qqv3Pas7EvQFzxKnI6w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/tailwindcss/-/tailwindcss-3.3.2.tgz}
     name: tailwindcss
     version: 3.3.2
     engines: {node: '>=14.0.0'}
@@ -5008,7 +4986,7 @@ packages:
       - ts-node
 
   registry.npmmirror.com/tar@6.1.15:
-    resolution: {integrity: sha512-/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tar/-/tar-6.1.15.tgz}
+    resolution: {integrity: sha512-/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/tar/-/tar-6.1.15.tgz}
     name: tar
     version: 6.1.15
     engines: {node: '>=10'}
@@ -5022,7 +5000,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/thenify-all@1.6.0:
-    resolution: {integrity: sha512-RNxQH/qI8/t3thXJDwcstUO4zeqo64+Uy/+sNVRBx4Xn2OX+OZ9oP+iJnNFqplFra2ZUVeKCSa2oVWi3T4uVmA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/thenify-all/-/thenify-all-1.6.0.tgz}
+    resolution: {integrity: sha512-RNxQH/qI8/t3thXJDwcstUO4zeqo64+Uy/+sNVRBx4Xn2OX+OZ9oP+iJnNFqplFra2ZUVeKCSa2oVWi3T4uVmA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/thenify-all/-/thenify-all-1.6.0.tgz}
     name: thenify-all
     version: 1.6.0
     engines: {node: '>=0.8'}
@@ -5030,14 +5008,14 @@ packages:
       thenify: registry.npmmirror.com/thenify@3.3.1
 
   registry.npmmirror.com/thenify@3.3.1:
-    resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/thenify/-/thenify-3.3.1.tgz}
+    resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/thenify/-/thenify-3.3.1.tgz}
     name: thenify
     version: 3.3.1
     dependencies:
       any-promise: registry.npmmirror.com/any-promise@1.3.0
 
   registry.npmmirror.com/to-regex-range@5.0.1:
-    resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz}
+    resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz}
     name: to-regex-range
     version: 5.0.1
     engines: {node: '>=8.0'}
@@ -5045,24 +5023,24 @@ packages:
       is-number: registry.npmmirror.com/is-number@7.0.0
 
   registry.npmmirror.com/tr46@0.0.3:
-    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tr46/-/tr46-0.0.3.tgz}
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/tr46/-/tr46-0.0.3.tgz}
     name: tr46
     version: 0.0.3
     dev: false
 
   registry.npmmirror.com/ts-interface-checker@0.1.13:
-    resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz}
+    resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz}
     name: ts-interface-checker
     version: 0.1.13
 
   registry.npmmirror.com/tslib@2.5.2:
-    resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tslib/-/tslib-2.5.2.tgz}
+    resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/tslib/-/tslib-2.5.2.tgz}
     name: tslib
     version: 2.5.2
     dev: false
 
   registry.npmmirror.com/use-callback-ref@1.3.0(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/use-callback-ref/-/use-callback-ref-1.3.0.tgz}
+    resolution: {integrity: sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/use-callback-ref/-/use-callback-ref-1.3.0.tgz}
     id: registry.npmmirror.com/use-callback-ref/1.3.0
     name: use-callback-ref
     version: 1.3.0
@@ -5080,7 +5058,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/use-sidecar@1.1.2(@types/react@18.0.22)(react@18.2.0):
-    resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/use-sidecar/-/use-sidecar-1.1.2.tgz}
+    resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/use-sidecar/-/use-sidecar-1.1.2.tgz}
     id: registry.npmmirror.com/use-sidecar/1.1.2
     name: use-sidecar
     version: 1.1.2
@@ -5099,18 +5077,18 @@ packages:
     dev: false
 
   registry.npmmirror.com/util-deprecate@1.0.2:
-    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz}
     name: util-deprecate
     version: 1.0.2
 
   registry.npmmirror.com/webidl-conversions@3.0.1:
-    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz}
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz}
     name: webidl-conversions
     version: 3.0.1
     dev: false
 
   registry.npmmirror.com/whatwg-url@5.0.0:
-    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/whatwg-url/-/whatwg-url-5.0.0.tgz}
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/whatwg-url/-/whatwg-url-5.0.0.tgz}
     name: whatwg-url
     version: 5.0.0
     dependencies:
@@ -5119,7 +5097,7 @@ packages:
     dev: false
 
   registry.npmmirror.com/wide-align@1.1.5:
-    resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wide-align/-/wide-align-1.1.5.tgz}
+    resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/wide-align/-/wide-align-1.1.5.tgz}
     name: wide-align
     version: 1.1.5
     dependencies:
@@ -5127,28 +5105,28 @@ packages:
     dev: false
 
   registry.npmmirror.com/wrappy@1.0.2:
-    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wrappy/-/wrappy-1.0.2.tgz}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/wrappy/-/wrappy-1.0.2.tgz}
     name: wrappy
     version: 1.0.2
 
   registry.npmmirror.com/yallist@3.1.1:
-    resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/yallist/-/yallist-3.1.1.tgz}
+    resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/yallist/-/yallist-3.1.1.tgz}
     name: yallist
     version: 3.1.1
 
   registry.npmmirror.com/yallist@4.0.0:
-    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/yallist/-/yallist-4.0.0.tgz}
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/yallist/-/yallist-4.0.0.tgz}
     name: yallist
     version: 4.0.0
 
   registry.npmmirror.com/yaml@2.3.1:
-    resolution: {integrity: sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/yaml/-/yaml-2.3.1.tgz}
+    resolution: {integrity: sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/yaml/-/yaml-2.3.1.tgz}
     name: yaml
     version: 2.3.1
     engines: {node: '>= 14'}
 
   registry.npmmirror.com/zod@3.21.4:
-    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/zod/-/zod-3.21.4.tgz}
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==, registry: https://mirrors.huaweicloud.com/repository/npm/, tarball: https://registry.npmmirror.com/zod/-/zod-3.21.4.tgz}
     name: zod
     version: 3.21.4
     dev: false
